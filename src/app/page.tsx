@@ -114,7 +114,7 @@ export default function LandingPage() {
         </p>
        </div>
 
-        <p className="text-2xl font-semibold relative translate-y-[-19px] text-black">
+        <p className="text-2xl font-semibold relative translate-y-[-15px] text-black">
         <span className='text-red-500 text-5xl'>⚜</span>     IF YOU HAVE ANY QUESTIONS PLEASE DON&#39;T HESITATE TO CONTACT US      <span className='text-red-500 text-5xl'>⚜</span>
         </p>
       </div>
