@@ -13,9 +13,9 @@ import Link from 'next/link'
 import PulsatingButton from "../components/ui/pulsating-button";
 export default function LandingPage() {
   return (
-    <div className="h-screen border-[25px] border-double border-[#f6eb7f]  flex flex-col items-center justify-between  bg-white text-center">
+    <div className="h-screen border-[25px] border-double border-[#f6eb7f]  flex flex-col items-center justify-center  bg-white text-center">
      
-     <div className='flex justify-center  w-full  items-center text-2xl font-bold'>
+     <div className='flex justify-center h-fit  w-full  items-center text-2xl font-bold'>
      
      <Dialog >
       <DialogTrigger asChild>
@@ -114,8 +114,8 @@ export default function LandingPage() {
         </p>
        </div>
 
-        <p className="text-2xl font-semibold relative translate-y-[-35px] text-black">
-        <span className='text-red-500 text-6xl'>⚜</span>     IF YOU HAVE ANY QUESTIONS PLEASE DON&#39;T HESITATE TO CONTACT US      <span className='text-red-500 text-6xl'>⚜</span>
+        <p className="text-2xl font-semibold relative translate-y-[-19px] text-black">
+        <span className='text-red-500 text-5xl'>⚜</span>     IF YOU HAVE ANY QUESTIONS PLEASE DON&#39;T HESITATE TO CONTACT US      <span className='text-red-500 text-5xl'>⚜</span>
         </p>
       </div>
 
