@@ -13,13 +13,13 @@ import Link from 'next/link'
 import PulsatingButton from "../components/ui/pulsating-button";
 export default function LandingPage() {
   return (
-    <div className="min-h-screen border-[25px] border-double border-[#f6eb7f] flex flex-col items-center justify-between p-1 bg-white text-center">
+    <div className="h-screen border-[25px] border-double border-[#f6eb7f]  flex flex-col items-center justify-between  bg-white text-center">
      
-     <div className='flex justify-center  w-full  items-center text-3xl font-bold'>
+     <div className='flex justify-center  w-full  items-center text-2xl font-bold'>
      
      <Dialog >
       <DialogTrigger asChild>
-      <p className='cursor-pointer relative translate-x-[-75px]'>ABOUT US</p>
+      <p className='cursor-pointer relative translate-x-[-113px]'>ABOUT US</p>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[600px] flex flex-col justify-evenly items-center text-center">
         <DialogHeader>
@@ -44,7 +44,7 @@ export default function LandingPage() {
       </DialogContent>
     </Dialog><Dialog>
       <DialogTrigger asChild>
-      <p className='cursor-pointer relative translate-x-[105px]'>CONTACT US</p>
+      <p className='cursor-pointer relative translate-x-[138px]'>CONTACT US</p>
       </DialogTrigger>
       <DialogContent className="sm:max-w-[600px] flex flex-col justify-evenly items-center text-center">
         <DialogHeader>
@@ -84,23 +84,23 @@ export default function LandingPage() {
           TO APPLY FOR FUNDING CLICK HERE NOW
         </Link> */}
 <Link href={'https://form.jotform.com/johnmoshe_johnmoshe905/iFundingApplication'}>
-<PulsatingButton className='text-white text-3xl font-bold py-6 px-12  shadow-lg'>TO APPLY FOR FUNDING NOW CLICK HERE</PulsatingButton>
+<PulsatingButton className='text-white text-2xl font-bold py-4 px-10  shadow-lg'>TO APPLY FOR FUNDING NOW CLICK HERE</PulsatingButton>
 
 </Link>        
-        <p className="text-3xl font-bold text-black">
+        <p className="text-2xl font-bold text-black">
           5 MINUTES EASY SIMPLE QUICK APPLICATION
         </p>
 
         {/* Main content */}
-        <h1 className="text-4xl font-bold text-red-500">
+        <h1 className="text-3xl h-fit font-bold text-red-500">
           iFUNDING IS ONE OF THE LARGEST FUNDING COMPANIES IN THE U.S.A TODAY
         </h1>
 
-        <h2 className="text-3xl font-semibold text-black">
+        <h2 className="text-2xl font-bold text-black">
           WE WILL GET YOU THE FUNDING THAT YOU NEED TODAY!
         </h2>
-       <div className='flex flex-col items-center justify-center'>
-       <h2 className="text-3xl font-semibold text-black">
+       <div className='flex flex-col  items-center justify-center'>
+       <h2 className="text-2xl font-bold text-black">
           HOW DOES IT WORK?
         </h2>
 
@@ -109,12 +109,12 @@ export default function LandingPage() {
         {/* CTA Button */}
        
 
-        <p className="text-3xl font-semibold text-black">
+        <p className="text-2xl font-bold text-black">
           AS SOON AS YOU APPLY, WE WILL WORK ON IT QUICKLY AND GET BACK WITH YOU AS SOON AS POSSIBLE TODAY
         </p>
        </div>
 
-        <p className="text-3xl font-semibold text-black">
+        <p className="text-2xl font-semibold relative translate-y-[-35px] text-black">
         <span className='text-red-500 text-6xl'>⚜</span>     IF YOU HAVE ANY QUESTIONS PLEASE DON&#39;T HESITATE TO CONTACT US      <span className='text-red-500 text-6xl'>⚜</span>
         </p>
       </div>
