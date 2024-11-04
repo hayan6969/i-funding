@@ -18,7 +18,7 @@ export default function LandingPage() {
       <div className='relative flex justify-between w-full items-center text-[2.5vmin] sm:text-[3vmin] font-bold mb-[1vmin]'>
         <Dialog>
           <DialogTrigger asChild>
-            <p className='cursor-pointer absolute left-[calc(48%-30vmin)]'>ABOUT US</p>
+            <p className='cursor-pointer text-2xl absolute left-[calc(43%-30vmin)]'>ABOUT US</p>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] flex flex-col justify-evenly items-center text-center">
             <DialogHeader>
@@ -40,7 +40,7 @@ export default function LandingPage() {
         </Dialog>
         <Dialog>
           <DialogTrigger asChild>
-            <p className='cursor-pointer absolute right-[calc(47%-30vmin)]'>CONTACT US</p>
+            <p className='cursor-pointer text-2xl absolute right-[calc(41%-30vmin)]'>CONTACT US</p>
           </DialogTrigger>
           <DialogContent className="sm:max-w-[80vw] md:max-w-[70vw] lg:max-w-[60vw] flex flex-col justify-evenly items-center text-center">
             <DialogHeader>
@@ -59,7 +59,7 @@ export default function LandingPage() {
       </div>
       
       <div className="flex-grow flex flex-col items-center justify-center gap-[2.5vmin] w-full">
-        <div className="w-full h-[20vmin] border-[0.8vmin] border-[#f6eb7f] bg-[#4cd681] rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
+        <div className="w-full h-[25vmin] border-[0.8vmin] border-[#f6eb7f] bg-[#4cd681] rounded-lg shadow-lg flex items-center justify-center overflow-hidden">
           <div className="h-full aspect-[3/1] flex items-center justify-center">
             <Image
               src='/ifunding.jpg'
@@ -75,35 +75,35 @@ export default function LandingPage() {
           {/* <button className="bg-[#fdd017] border-[0.8vmin] border-red-500 text-white text-[3vmin] font-bold py-[2vmin] px-[3vmin] rounded-full shadow-lg hover:bg-[#e5bc15] transition duration-300 animate-pulse">
             TO APPLY FOR FUNDING NOW CLICK HERE
           </button> */}
-          <PulsatingButton className='font-bold'>
+          <PulsatingButton className='font-bold text-xl'>
             TO APPLY FOR FUNDING NOW CLICK HERE
           </PulsatingButton>
         </Link>
         
-        <p className="text-[2.8vmin] font-bold text-black">
+        <p className="text-[3.5vmin] font-bold text-black">
           5 MINUTES EASY SIMPLE QUICK APPLICATION
         </p>
 
-        <h1 className="text-[3.2vmin] font-bold text-red-500 text-center px-[2vmin]">
+        <h1 className="text-[4.5vmin] font-bold text-red-500 text-center px-[2vmin]">
           iFUNDING IS ONE OF THE LARGEST FUNDING COMPANIES IN THE U.S.A TODAY
         </h1>
 
-        <h2 className="text-[2.8vmin] font-bold text-black">
+        <h2 className="text-[3.2vmin] font-bold text-black">
           WE WILL GET YOU THE FUNDING THAT YOU NEED TODAY!
         </h2>
         
         <div className='flex flex-col items-center justify-center'>
-          <h2 className="text-[2.8vmin] font-bold text-black">
+          <h2 className="text-[3.2vmin] font-bold text-black">
             HOW DOES IT WORK?
           </h2>
 
-          <p className="text-[2.5vmin] font-bold text-black text-center px-[2vmin]">
+          <p className="text-[3vmin] font-bold text-black text-center px-[2vmin]">
             AS SOON AS YOU APPLY, WE WILL WORK ON IT QUICKLY AND GET BACK WITH YOU AS SOON AS POSSIBLE TODAY
           </p>
         </div>
       </div>
 
-      <p className="text-[2.5vmin] font-bold text-black text-center px-[2vmin]">
+      <p className="text-[3vmin] font-bold text-black text-center px-[2vmin]">
         <span className='text-red-500 text-[4vmin]'>⚜</span>
         IF YOU HAVE ANY QUESTIONS PLEASE DON&#39;T HESITATE TO CONTACT US
         <span className='text-red-500 text-[4vmin]'>⚜</span>
